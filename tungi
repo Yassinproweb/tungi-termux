@@ -1,10 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-## Author  : Aditya Shakya
-## Twitter : @adi1090x
-## Github  : @adi1090x
-## Reddit  : @adi1090x
-
 ## A simple script to change color-schemes & fonts of termux terminal emulator.
 
 ## ANSI Colors (FG & BG)
@@ -17,19 +12,19 @@ DEFAULT_FG="$(printf '\033[39m')" DEFAULT_BG="$(printf '\033[49m')"
 ## Directories
 PREFIX='/data/data/com.termux/files/usr'
 TERMUX_DIR="$HOME/.termux"
-COLORS_DIR="$PREFIX/share/termux-style/colors"
-FONTS_DIR="$PREFIX/share/termux-style/fonts"
+COLORS_DIR="$PREFIX/share/tungi-termux/colors"
+FONTS_DIR="$PREFIX/share/tungi-termux/fonts"
 
 ## Banner
 banner() {
   clear
   echo "
     ${BLUE}┌──────────────────────────────────────────────────┐
-    ${BLUE}│${RED}░▀█▀░█▀▀░█▀▄░█▄█░█░█░█░█${ORANGE}░░░░░${GREEN}█▀▀░▀█▀░█░█░█░░░█▀▀░░${BLUE}│
-    ${BLUE}│${RED}░░█░░█▀▀░█▀▄░█░█░█░█░▄▀▄${ORANGE}░▄▄▄${RED}░${GREEN}▀▀█░░█░░░█░░█░░░█▀▀░░${BLUE}│
-    ${BLUE}│${RED}░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀${ORANGE}░░░░░${GREEN}▀▀▀░░▀░░░▀░░▀▀▀░▀▀▀░░${BLUE}│
+    ${BLUE}│${RED}░▀█▀░█░█░█▀█░█▀▀░▀█▀${ORANGE}░░░░░${GREEN}▀█▀░█▀▀░█▀▄░█▄█░█░█░█░█░░${BLUE}│
+    ${BLUE}│${RED}░░█░░█░█░█░█░█░▄░░█░${ORANGE}░▄▄▄${RED}░${GREEN}░█░░█▀▀░█▀▄░█░█░█░█░▄▀▄░░${BLUE}│
+    ${BLUE}│${RED}░░▀░░▀▀▀░▀░▀░▀▀▀░▀▀▀${ORANGE}░░░░░${GREEN}░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░░${BLUE}│
     ${BLUE}└──────────────────────────────────────────────────┘
-    ${BLUE}[${RED}*${BLUE}] ${ORANGE}By- Yāsīn Katungi ${RED}//${ORANGE} Yassinproweb"
+    ${BLUE}[${RED}*${BLUE}] ${ORANGE}By- Yassin Katungi ${RED}//${ORANGE} Yassinproweb"
 }
 
 ## Script Termination
@@ -255,14 +250,14 @@ about_program() {
     │  			     ╹ ╹┗━┛┗━┛┗━┛ ╹ 			    │
     │───────────────────────────────────────────────────────────────│
     │                                                               │
-    │ >>  'termux-style' is a simple program that provides color    │
+    │ >>  'tungi-termux' is a simple program that provides color    │
     │     schemes and powerline-ready fonts to customize the        │
     │     appearance of the termux terminal emulator.               │
     │                                                               │
     │                                                               │
-    │ >>  Author   :  Aditya Shakya                                 │
-    │     Twitter  :  https://twitter.com/adi1090x                  │
-    │     Github   :  https://github.com/adi1090x                   │
+    │ >>  Author   :  Yassin Katungi                                │
+    │     Whatsapp :  https://wa.me/256748592974                    │
+    │     Github   :  https://github.com/Yassinproweb               │
     │     Reddit   :  https://www.reddit.com/user/adi1090x          │
     │                                                               │
     └───────────────────────────────────────────────────────────────┘"
